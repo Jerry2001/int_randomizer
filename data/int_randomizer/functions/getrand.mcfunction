@@ -1,0 +1,2 @@
+summon minecraft:cod ^ ^20 ^-20 {Health: 0.1, DeathLootTable : "int_randomizer:kanit", Silent: 1}
+execute as @e[type=item, sort=random, limit = 1, nbt={Item:{id:"minecraft:barrier"}}] store result score holder random run data get entity @s Item.Count

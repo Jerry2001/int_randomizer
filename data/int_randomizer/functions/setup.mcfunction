@@ -16,4 +16,4 @@ fill 0 3 0 0 3 0 minecraft:glass destroy
 fill 0 2 0 0 2 0 minecraft:air destroy
 function int_randomizer:tick
 function int_randomizer:clear
-function int_randomizer:force
+#function int_randomizer:force
