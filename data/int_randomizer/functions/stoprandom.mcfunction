@@ -1,0 +1,3 @@
+scoreboard objectives setdisplay sidebar
+schedule clear int_randomizer:tick
+schedule clear int_randomizer:clear
